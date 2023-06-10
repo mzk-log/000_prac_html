@@ -1,0 +1,28 @@
+/* mainvisual */
+@media(max-width: 600px){
+    .mainvisual img {
+        height: calc(100vh - 60px);
+    }
+
+    .about .content {
+        flex-direction: column;
+    }
+
+    .about .content img {
+        margin:0 auto;
+    }
+
+    .about .content .text {
+        margin:0 auto;
+    }
+
+    .bicycle .contents {
+        flex-direction: column;
+    }
+
+    .bicycle .contents .content{
+        width:100%;
+        margin-bottom: 30px;
+    }
+}
+
